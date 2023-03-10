@@ -2,7 +2,7 @@
     width: 100%;
     height: 100px;
     background: transparent;
-    backdrop-filter: saturate(100%) blur(10px);
+    backdrop-filter: saturate(100%) blur(5px);
     display: flex;
     flex-direction: row;
     position: sticky;
@@ -16,6 +16,9 @@
     font-size: 20px;
     font-family: sans-serif;
 }
+.list_item{
+    color: white;
+}
 .list_item:hover{
     color: rgb(251, 233, 233);
     cursor: pointer;
@@ -25,6 +28,7 @@
     margin-left: 40px;
     font-size: 40px;
     font-family: sans-serif;
+    color: white;
 }
 #store_name:hover{
     color: rgb(251, 233, 233);
@@ -44,8 +48,9 @@
 .flex{
     width: 100%;
     height: 900px;
-    background-image: url("../../../assets/images/flex.jpg");
+    background-image: url("../../../assets/images/bgwomen.jpg");
     background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 #offer{
     font-family: sans-serif;
@@ -79,6 +84,7 @@
     border: white solid 2px;
     font-weight: bold; 
     margin-left: 20px;
+    color: white;
 }
 
 #findmore:hover{
