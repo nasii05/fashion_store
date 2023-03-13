@@ -1,0 +1,14 @@
+<div class="feature">
+    <h1 id="feature_title">featured products</h1>
+</div>
+<section id="featured_products">
+
+    <div class="card" *ngFor="let item of cards">
+        <img src="{{item.src}}" alt="products" id="product_image">
+        <h1 id="product_name">product name</h1>
+        <h3 id="product_price">{{item.price}}</h3>
+        <button class="buy_btn">Buy N ow</button>
+    </div>
+
+</section>
+

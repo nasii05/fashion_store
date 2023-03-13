@@ -21,6 +21,7 @@
 .aos:hover{
    transform: translateY(-15px);
    cursor: pointer;
+   box-shadow: 10px 10px #25ff67eb;
 }
 
 .cat{
@@ -28,3 +29,5 @@
     height: 400px;
     border-radius: 30px; 
 }
+
+
